@@ -1,0 +1,10 @@
+[
+    {
+        "prompt": "Create a FastAPI microservice for managing applications.\n\nTable Design:\nTable: apps\nColumns:\n- id: integer, primary key\n- app_name: string\n- is_active: boolean",
+        "git_repo": "https://github.com/ASHOKEKUMAR-S/service_apps"
+    },
+    {
+        "prompt": "Create a FastAPI microservice to manage host metadata.\n\nTable Design:\nTable: hosts\nColumns:\n- id: integer, primary key\n- host_name: string\n- is_active: boolean\n- created_at: datetime",
+        "git_repo": "https://github.com/ASHOKEKUMAR-S/service_host"
+    }
+]
